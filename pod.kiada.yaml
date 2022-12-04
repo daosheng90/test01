@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: test01
+  name: kiada
 spec:
   containers:
-  - name: test01
-    image: daosheng90/daosheng90-test01
+  - name: kiada
+    image: luksa/kiada:0.1
     imagePullPolicy: Always
     ports:
     - containerPort: 8080
